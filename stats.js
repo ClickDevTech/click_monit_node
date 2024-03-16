@@ -66,7 +66,7 @@ async function getStats() {
         // Получаем информацию об оперативной памяти
         const RAM = await info.mem();
         const totalMem = (RAM.total / (1024 * 1024 * 1024)).toFixed(2);
-        const usedMem = (RAM.used / (1024 * 1024 * 1024)).toFixed(2);
+        const usedMem = (RAM.active / (1024 * 1024 * 1024)).toFixed(2);
 
         const result = {
             timestamp: formattedDate,
