@@ -1,4 +1,4 @@
 {
-  "name": "test",
-  "controller_ip": "http://click-vpn.ru:7453"
+  "name": "main",
+  "controller_ip": "http://localhost:7453"
 }

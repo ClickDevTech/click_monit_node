@@ -2,11 +2,11 @@
   "name": "node",
   "version": "1.0.0",
   "description": "stats",
-  "main": "stats.js",
+  "main": "click_monit_node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon stats.js",
-    "start": "node stats.js"
+    "dev": "nodemon click_monit_node.js",
+    "start": "node click_monit_node.js"
   },
   "author": "Pavel Pakhnutow",
   "license": "ISC",
