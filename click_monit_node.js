@@ -119,11 +119,15 @@ socket.on('periodSelected', async (selectedPeriod) => {
         // Добавляем усредненные значения в массив
         avg.push(avgStats);
 
+        avgStats = null;
+
     }
 
     avg[0].name = name;
     console.log('Все данные в таблице system_stats отправлены');
     await socket.emit('charts', avg);
+
+    avg = null;
 
 });
 
